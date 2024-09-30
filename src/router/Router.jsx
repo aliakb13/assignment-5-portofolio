@@ -5,6 +5,7 @@ import About from "../pages/About";
 import Experience from "../pages/Experience";
 import Interests from "../pages/Interests";
 import Awards from "../pages/Awards";
+import Skills from "../pages/Skills";
 
 const root = createBrowserRouter([
   {
@@ -23,10 +24,10 @@ const root = createBrowserRouter([
         path: "experience",
         element: <Experience />,
       },
-      // {
-      //   path: 'skills',
-      //   element:
-      // },
+      {
+        path: "skills",
+        element: <Skills />,
+      },
       {
         path: "interest",
         element: <Interests />,

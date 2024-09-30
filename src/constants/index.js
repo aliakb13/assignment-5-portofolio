@@ -84,4 +84,73 @@ const awards = [
   },
 ];
 
-export { experiences, interests, awards };
+const skills = [
+  {
+    id: 1,
+    skill: "Frontend",
+    tech: [
+      {
+        name: "HTML",
+        class_name: "fa-brands fa-html5",
+      },
+      {
+        name: "CSS",
+        class_name: "fa-brands fa-css3-alt",
+      },
+      {
+        name: "JavaScript",
+        class_name: "fa-brands fa-js",
+      },
+      {
+        name: "bootstrap",
+        class_name: "fa-brands fa-bootstrap",
+      },
+      {
+        name: "react",
+        class_name: "fa-brands fa-react",
+      },
+    ],
+  },
+  {
+    id: 2,
+    skill: "Backend",
+    tech: [
+      {
+        name: "NodeJs",
+        class_name: "fa-brands fa-node",
+      },
+      {
+        name: "golang",
+        class_name: "fa-brands fa-golang",
+      },
+      {
+        name: "MySql + PostgreSql",
+        class_name: "fa-solid fa-database",
+      },
+    ],
+  },
+  {
+    id: 3,
+    skill: "Others",
+    tech: [
+      {
+        name: "git",
+        class_name: "fa-brands fa-git-alt",
+      },
+      {
+        name: "GitHub",
+        class_name: "fa-brands fa-github",
+      },
+      {
+        name: "Java",
+        class_name: "fa-brands fa-java",
+      },
+      {
+        name: "AWS",
+        class_name: "fa-brands fa-aws",
+      },
+    ],
+  },
+];
+
+export { experiences, interests, awards, skills };
