@@ -1,3 +1,5 @@
+import darren from "../assets/raden.jpg";
+
 export default function HomeContent() {
   return (
     <section className="p-16 lg:mx-10 xl:mx-40 grid grid-cols-[3fr_1fr] gap-10">
@@ -28,7 +30,7 @@ export default function HomeContent() {
       <div className="flex justify-center items-center">
         <img
           className="rounded-full border-[#2C3E50] border-2"
-          src="../src/assets/raden.jpg"
+          src={darren}
           alt="raden watkins"
         />
       </div>
